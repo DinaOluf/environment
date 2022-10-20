@@ -1,10 +1,12 @@
 {
-  "name": "joker",
-  "version": "0.0.1",
+  "name": "dinaoluf-joker",
+  "version": "0.1.0",
   "description": "Application that tells jokes.",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/DinaOluf/environment/issues"
   },
-  "homepage": "https://github.com/DinaOluf/environment#readme"
+  "homepage": "https://github.com/DinaOluf/environment#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "dinaoluf-joker": "^0.1.0",
+    "give-me-a-joke": "^0.5.1"
+  }
 }
