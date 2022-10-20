@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/DinaOluf/environment/issues"
   },
-  "homepage": "https://github.com/DinaOluf/environment#readme"
+  "homepage": "https://github.com/DinaOluf/environment#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
