@@ -1,5 +1,5 @@
 {
-  "name": "joker",
+  "name": "dinaoluf-joker",
   "version": "0.1.0",
   "description": "Application that tells jokes.",
   "type": "module",
@@ -26,6 +26,7 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
+    "dinaoluf-joker": "^0.1.0",
     "give-me-a-joke": "^0.5.1"
   }
 }
