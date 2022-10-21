@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/DinaOluf/environment#readme",
   "devDependencies": {
+    "eslint": "^8.25.0",
     "prettier": "^2.7.1"
   },
   "dependencies": {
